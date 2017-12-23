@@ -9,7 +9,6 @@
   border-radius: 20px;
   box-shadow: 4px 5px rgb(200, 200, 200);
   background-color: rgb(47, 63, 71);
-  height: 170px;
   padding: 20px;
   color: white;
 }
@@ -20,4 +19,15 @@
 
 .App-intro {
   font-size: large;
+}
+
+.Card {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 5px rgb(200, 200, 200);
+  background-color: rgb(89, 117, 131);
+  padding: 20px;
+  color: white;
 }

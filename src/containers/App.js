@@ -10,9 +10,15 @@ class App extends Component {
           <h2>Computer Science Student at Minerva Schools at KGI</h2>
           <h3>Class of 2021</h3>
         </header>
-        <p className="App-intro">
-          Just testing out the website lol
-        </p>
+        <div className="Card">
+          <h1>My skills:</h1>
+          <h3>Front-end development:</h3>
+          <p>JavaScript, React.js, HTML, CSS</p>
+          <h3>Back-end development:</h3>
+          <p>C++, Python, SQL</p>
+          <h3>Theoretical knowledge:</h3>
+          <p>Sorting, tree, path, regression algorithms, data structures, linear algebra</p>
+        </div>
       </div>
     );
   }
