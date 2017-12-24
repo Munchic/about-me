@@ -2,14 +2,24 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
+  state = {
+
+  }
+
+  styles = {
+    header: {
+      backgroundColor: 'rgb(47, 63, 71)'
+    }
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="Card" style={{backgroundColor: 'rgb(47, 63, 71)'}}>
           <h1>Khoi Pham</h1>
           <h2>Computer Science Student at Minerva Schools at KGI</h2>
           <h3>Class of 2021</h3>
-        </header>
+        </div>
         <div className="Card">
           <h1>My skills:</h1>
           <h3>Front-end development:</h3>
